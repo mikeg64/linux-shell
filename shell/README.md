@@ -12,8 +12,25 @@ useful for your research.
 You can use a browser to open this tutorial on github:
     https://github.com/mikeg64/linux_shell/shell
 
+#Introduction
+As a result Linux is available on many types of machines from super computers to PCs. 
+Currently UBUNTU is the flavour of Linux that has gained great popularity 	
+The UNIX operating system was developed in the early 1970s by a group of enthusiasts at 
+Bell Laboratories in the USA. Since then it was modified by a number of different groups 
+and evolved into many similar but not identical flavours. Linus Torvalds, at the time a 
+computer science student at the university of Helsinki, started a freely available academic
+ version of UNIX ‘LINUX’ that was to become the standard for all Linux implementations that 
+ followed. Now-a-days Unix and Linux have become almost synonymous with each other.  Linux 
+ is structured so that the user works within a ‘shell’ that can be configured by the system 
+ administrators, working behind the scenes. LINUX is a multi-user, multi-tasking operating 
+ system, which has the following features:
+ 
+	Hierarchical File System
+	Process Management
+	Command Interpreter (Shell)
+	
 # What is a shell?
-
+	
 A *shell* is a program which reads a command that you typed; decides
 what to do with it; does it; then prints out any text that was
 generated.
@@ -54,6 +71,25 @@ Some commands you'll use are *bash builtins*. A couple of examples are
 `alias` and `source`. When you type these, you activate code which is
 part of the shell itself. This is also true of programming constructs
 such as conditionals (if/else), loops, variable assignments and so on.
+
+For historical reasons, most important Linux commands are only two letters long. 
+This brevity can sometimes make them difficult to remember, and it is 
+not always easy to tell from a sequence of commands exactly what is happening. 
+Also Linux distinguishes upper case letters from lower case, and insists that many 
+commands are written in lower case. Typing a command in upper case will probably 
+generate the response
+
+	Command not found
+
+A typical Linux command consists of a general command word, which may be followed 
+by optional parameters that specify more precisely what you want the command to do. 
+Many of these options consist of a single letter, making the command brief but not
+ altogether easy to remember. If a command operates on files then the filenames 
+ must come after the options.
+ 
+	command [option …] [filename …]
+
+
 
 # The Example: Manipulating Experimental Data Files
 
